@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Chuck Jokes</title>
 </head>
 <body>
     <h1>One of Chuck's jokes</h1>
-    <p>Norris said: "<span></span>"</p>
+    <p>Norris said: "<span th:text="${joke}"></span>"</p>
 </body>
 </html>

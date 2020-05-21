@@ -18,6 +18,6 @@ public class JokesController {
     public String getJoke(Model model) {
         model.addAttribute("joke", jokesService.getRandomJoke());
 
-        return "chucknorris";
+        return "/views/chucknorris";
     }
 }
